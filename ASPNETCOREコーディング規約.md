@@ -62,6 +62,7 @@ public async Task<Product> GetProductAsync(int productId)
 
 ### クラス
 - **PascalCase** を使用
+- クラス名は基本単数
 - モデル（Entity） → 単数形
   - 例：`Product`, `Order`, `Customer`
 - Controller → クラス名 + `Controller`
