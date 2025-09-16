@@ -201,7 +201,7 @@ public class ProductService : IProductService
 モデルは処理は書かない、モデル定義のみ記載する
 
 ### DataAnnotation を使用したバリデーション
-（バリエーションはほかにいい方法あったら教えてください）
+（バリデーションはほかにいい方法あったら教えてください）
 
 ```csharp
 
