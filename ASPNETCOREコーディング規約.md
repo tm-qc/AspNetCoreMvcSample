@@ -90,6 +90,12 @@ public async Task<Product> GetProductAsync(int productId)
   - 親 → 単数形（例：`Customer`）
   - 子 → 複数形（例：`Orders`）
 
+### ファイル名
+- **PascalCase** を使用
+  - 例：`Create.cshtml`
+
+クラス名と同じ or ViewはASP.NET Core標準がPascalCaseを推奨
+
 ## 2. MVC基本フォルダ構成
 
 ```
