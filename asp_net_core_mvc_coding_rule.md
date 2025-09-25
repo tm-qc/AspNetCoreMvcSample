@@ -82,7 +82,7 @@ public async Task<Product> GetProductAsync(int productId)
 - **camelCase** を使用
   - 例：`itemCount`, `customerName`
 
-### モデル・DBの命名
+### モデルの命名
 - **PascalCase** を使用
 - **主キー** → `Id`（例：`Product.Id`）
 - **外部キー** → 親クラス名 + `Id`（例：`CustomerId`）
@@ -97,6 +97,7 @@ public async Task<Product> GetProductAsync(int productId)
 クラス名と同じ or ViewはASP.NET Core標準がPascalCaseを推奨
 
 ### 補足
+#### DBのテーブル名について
 テーブル名は基本複数形で作成が良さそうです。 
 
 理由は以下
