@@ -94,6 +94,19 @@ public async Task<Product> GetProductAsync(int productId)
 - **PascalCase** を使用
   - 例：`Create.cshtml`
 
+### 補足
+テーブル名は基本複数形で作成が良さそうです。 
+
+理由は以下
+
+- データは複数のレコードを格納するため
+- モデル名（エンティティクラス）が単数形の名前は複数形のテーブル名に自動マッピングするので指定不要
+- データベースのテーブル名が単数→モデル名が複数形の関係で書けないときは、アノテーションで指定する
+例）[Table("Sample")] 
+
+
+
+
 クラス名と同じ or ViewはASP.NET Core標準がPascalCaseを推奨
 
 ## 2. MVC基本フォルダ構成
